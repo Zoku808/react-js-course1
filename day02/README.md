@@ -1,15 +1,15 @@
-# day 02
+# Day 02
 
 youtube link -  https://youtu.be/t5nZUCOZYhA
 
 * this lesson contains how to fetch data to git hub.
 
-## initial setup
+## Initial setup
 
 1. install git on your pc 
 2. setup ssh key
 
-## steps
+## Steps 
 
 1. git init
 2. git remote add origin git@github.com:Zoku808/react-js-course1.git
@@ -21,3 +21,10 @@ youtube link -  https://youtu.be/t5nZUCOZYhA
     - result should be : On branch main nothing to commit, working tree clean
 8. git push --set-upstream origin main
 9. git push -u origin main
+
+## After any changes, you should do this steps to to sync cloud and local repo.
+
+1. git add .
+2. git commit -m "your commit message"
+3. git push
+
