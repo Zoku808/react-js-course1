@@ -16,14 +16,14 @@
 
 ### Sync GitHub with Local Repository (After Changes)
 
-# Stage all changed files
+## Stage all changed files
 git add .
 
-# Commit with a message
+## Commit with a message
 git commit -m "Your commit message"
 
-# Push to GitHub
+## Push to GitHub
 git push
 
-# Pull in case there are updates on GitHub
+## Pull in case there are updates on GitHub
 git pull
