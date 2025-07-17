@@ -1,0 +1,81 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333333;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #222529;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.sub-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333333;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.topics-list {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+/* Footer */
+.footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 30px;
+  border-radius: 8px;
+}
